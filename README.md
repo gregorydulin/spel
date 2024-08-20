@@ -507,7 +507,7 @@ packer build \
     -var 'spel_version=0.0.1' \
     -var 'openstack_insecure=false' \
     -var 'openstack_flavor=your_flavor_name_for_temporary_instance' \
-    -var 'openstack_floating_ip_network=your_provider_network_name' \
+    -var 'openstack_floating_ip_network_name=your_provider_network_name' \
     -var 'openstack_networks=your_network_id_for_temporary_instance,second_network_id,etc.' \
     -var 'openstack_security_groups=your_security_group_name_for_temporary_instance,second_sg_name,etc.' \
     -var 'openstack_source_image_name=your_source_image_name' \
